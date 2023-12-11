@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Demo1 {
     private int num;
+
+    public Demo1() {
+    }
+
     public void inputNum() throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập vào số nguyên");
